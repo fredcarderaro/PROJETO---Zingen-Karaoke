@@ -23,9 +23,9 @@
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   /*Aplica o que for menor */
-  
+
   margin-inline: auto;
-  border: blue solid;
+  /* border: blue solid; */
 }
 
 .desktop-only {
@@ -34,15 +34,19 @@
 
 .flex {
   display: flex;
-  
+
+}
+
+.items-center {
+  align-items: center;
 }
 
 .gap-1 {
   gap: 1rem;
 }
 
-.gap-1 {
-  gap: 1rem;
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
@@ -53,11 +57,11 @@
   .container {
     --max-width: 80rem;
   }
-  
+
   .desktop-only {
     display: initial;
   }
-  
+
   .even-column {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;

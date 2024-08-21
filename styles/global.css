@@ -58,8 +58,8 @@ body {
 h1,
 h2,
 h3 {
-  line-height: 1.2;>
-  color: var(--text-color-primary);
+  line-height: 1.2;
+  >color: var(--text-color-primary);
   font-weight: var(--fw-bold);
   letter-spacing: -0.04em;
 }
@@ -70,7 +70,7 @@ h1 {
 
 h2 {
   font-size: var(--fs-xl);
-  
+
 }
 
 h3 {
@@ -80,6 +80,16 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+a:hover {
+  background: linear-gradient(90deg,
+      var(--brand-color-secondary) 0%,
+      var(--brand-color-primary) 100%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 ul[role="list"] {
