@@ -10,3 +10,5 @@
 
 @import url(features.css) (width >=80em);
 /* Importa somente na condição verdadeira; */
+
+@import url(pricing.css);
