@@ -4,6 +4,7 @@
 
   & header {
     text-align: center;
+    /* border: 1px solid red; */
   }
 
   & .cards {
@@ -101,7 +102,7 @@
     --fs-price: 2.5rem;
 
     & header {
-      max-width: 5rem;
+      max-width: 50rem;
       margin-inline: auto;
     }
 

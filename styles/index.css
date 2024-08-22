@@ -12,3 +12,5 @@
 /* Importa somente na condição verdadeira; */
 
 @import url(pricing.css);
+@import url(download.css);
+@import url(footer.css);
